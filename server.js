@@ -7,6 +7,8 @@ app.get("/",function(request,response){
 
 app.post("/",function(request,response){
 response.send("in post");
+app.put("/",function(request,response){
+    response.send("in post");
 
 app.listen("4000",function(err,res){
     res.send("Hi");
